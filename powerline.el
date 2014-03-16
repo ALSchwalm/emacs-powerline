@@ -31,9 +31,6 @@
                     :background "#1a645f"
                     :box nil)
 
-(if (functionp 'scroll-bar-mode)
-    (scroll-bar-mode -1))
-
 (defun get-arrow-dots
   (leftp width height)
   (mapconcat
